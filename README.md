@@ -1,4 +1,4 @@
-# Web in a box setup based on CentOS 6.3 with Vagrant / Puppet
+# LAMP stack setup based on CentOS 6.3 with Vagrant / Puppet
 
 This installs:
 
