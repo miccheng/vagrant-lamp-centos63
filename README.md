@@ -36,10 +36,11 @@ $ vagrant up
 Update your host operating system's `/etc/hosts` file with the following entry:
 
 ```bash
-192.168.56.100 phpdev.local
+192.168.56.60 phpdev.local
 ```
 
 Now, you can reach the webroot with `http://phpdev.local` or `http://localhost:8080`.
+The phpMyAdmin URL: `http://phpdev.local/phpmyadmin` or `http://localhost:8080/phpmyadmin`. The username is `root`. There is no password specified in this VM. To secure it, you might want to SSH into the VM and run `mysql_secure_installation`.
 
 To login into the VM type
 ```bash

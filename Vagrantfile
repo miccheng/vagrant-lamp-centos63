@@ -14,7 +14,7 @@ Vagrant::Config.run do |config|
   # via the IP. Host-only networks can talk to the host machine as well as
   # any other machines on the same network, but cannot be accessed (through this
   # network interface) by any external networks.
-  config.vm.network :hostonly, "192.168.56.100"
+  config.vm.network :hostonly, "192.168.56.60"
 
   config.vm.host_name = "phpdev.local"
 
