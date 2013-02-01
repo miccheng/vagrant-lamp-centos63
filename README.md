@@ -1,5 +1,11 @@
 # Web in a box setup based on CentOS 6.3 with Vagrant / Puppet
 
+This installs:
+
+- Apache
+- MySQL
+- PHP
+- phpMyAdmin
 
 ## Installation
 
@@ -54,3 +60,7 @@ To destroy the VM:
 ```bash
 $ vagrant destroy
 ```
+
+## Attribution
+
+Based on the excellent work from [Patrick Daether](https://github.com/pdaether/LAMP-CentOS-with-Vagrant).
