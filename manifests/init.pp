@@ -1,5 +1,5 @@
 # Puppet manifest for my PHP dev machine
-class mig33web{
+class phpdevweb{
 	require yum
 	include iptables
 	#include rpmforge
@@ -8,5 +8,6 @@ class mig33web{
 	include phpdev
 	include mysql
 	include php	
+	include phpmyadmin
 }
-include mig33web
+include phpdevweb
