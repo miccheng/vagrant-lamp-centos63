@@ -33,10 +33,10 @@ $ vagrant up
 
 ## Usage
 
-Update your `/etc/hosts` file with the following entry:
+Update your host operating system's `/etc/hosts` file with the following entry:
 
 ```bash
-192.168.56.10 phpdev.local
+192.168.56.100 phpdev.local
 ```
 
 Now, you can reach the webroot with `http://phpdev.local` or `http://localhost:8080`.
