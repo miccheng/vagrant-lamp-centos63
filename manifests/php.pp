@@ -77,10 +77,6 @@ class php {
     ensure  => present,
   }
 
-  package { "php-xcache":
-    ensure  => present,
-  }
-
   exec { "xhprof":
     command => "/usr/bin/pecl install xhprof-beta",
     creates => "/usr/lib64/php/modules/xhprof.so",
