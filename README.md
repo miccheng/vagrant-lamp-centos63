@@ -1,5 +1,11 @@
 # LAMP stack setup based on CentOS 6.3 with Vagrant / Puppet
 
+For anyone wanting to try out Vagrant, here's some sample code to help you setup your own LAMP dev sandbox quickly. It runs on CentOS 6.3 and the internal setup is done with Puppet.
+
+Do not that the first run might take a while. Depending on your speed, 10 minutes to download the base VM (CentOS 6.3) and 5 minutes to startup and provision the VM. But subsequent startup should be quite fast.
+
+You can spin up new boxes very easily. Just put your PHP scripts in the `projects` folder and add a new vhost. If you are lazy, just throw your PHP files into the `projects/webroot` folder.
+
 This installs:
 
 - Apache
