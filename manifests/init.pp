@@ -6,7 +6,7 @@ class phpdevweb{
 	include misc
 	include httpd
 	include phpdev
-	include mysql
+	include db
 	include php	
 	include phpmyadmin
 }

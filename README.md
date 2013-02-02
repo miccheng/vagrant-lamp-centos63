@@ -27,6 +27,8 @@ This installs:
 
 	```bash
 $ git clone git@github.com:miccheng/vagrant-lamp-centos63.git phpdev
+$ git submodule init
+$ git submodule update
 ```
 
 4. Start Vagrant
@@ -69,7 +71,7 @@ $ vagrant destroy
 
 The phpMyAdmin URL: `http://phpdev.local/phpmyadmin` or `http://localhost:8080/phpmyadmin`.
 
-***Note:*** The MySQL username is `root`. There is no password specified for the MySQL root user. To secure it, you might want to SSH into the VM and run `mysql_secure_installation`.
+***Note:*** The MySQL username is `root` and the root password is `media1`. To change the default, edit `manifests/db.pp`.
 
 ## Attribution
 
