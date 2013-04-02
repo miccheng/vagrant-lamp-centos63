@@ -36,9 +36,9 @@ class phpdev {
   ensure  => present,
   }
 
-  package { "libjpeg-devel":
-  ensure  => present,
-  }
+  # package { "libjpeg-devel":
+  # ensure  => present,
+  # }
 
   package { "libvpx-devel":
   ensure  => present,
