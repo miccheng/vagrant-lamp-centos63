@@ -6,7 +6,7 @@ class phpdevweb{
 	#include rpmforge
 	include misc
 	include httpd
-	include phpdev
+	#include phpdev
 	include db
 	include php	
 	include phpmyadmin
