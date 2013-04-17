@@ -18,4 +18,8 @@ class misc {
     ensure  => present,
   }
 
+  package { "git":
+    ensure  => present,
+  }
+
 }
