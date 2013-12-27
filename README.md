@@ -1,3 +1,7 @@
+**NOTE!** This project has been deprecated in favor of [sgphpug/Vagrant-LAMP-CentOS64](https://github.com/sgphpug/vagrant-lamp-centos64)
+
+----
+
 # LAMP stack setup based on CentOS 6.3 with Vagrant / Puppet
 
 For anyone wanting to try out Vagrant, here's some sample code to help you setup your own LAMP dev sandbox quickly. It runs on CentOS 6.3 and the internal setup is done with Puppet.
